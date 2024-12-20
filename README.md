@@ -115,8 +115,11 @@ Usage
 -----
 
 ### Example
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Paper paper = new Paper("P1", "Machine Learning Basics", new LinkedList<>(Arrays.asList("Dr. John Doe", "Dr. Jane Smith")));  Review review = new Review("R1", "Reviewer A", 9, 5, "Excellent work");  // Submit a review  paper.submitReview(review);  System.out.println(paper);  // Update a review  Review updatedReview = new Review("R1", "Reviewer A", 10, 5, "Outstanding work");  paper.updateReview(updatedReview);  System.out.println(paper);  // Retract a review  paper.retractReview("R1");  System.out.println(paper);   `
+Paper paper = new Paper("P1", "Machine Learning Basics", new LinkedList<>(Arrays.asList("Dr. John Doe", "Dr. Jane Smith")));  
+Review review = new Review("R1", "Reviewer A", 9, 5, "Excellent work");  
+// Submit a review  paper.submitReview(review);  System.out.println(paper);  
+// Update a review  Review updatedReview = new Review("R1", "Reviewer A", 10, 5, "Outstanding work");  paper.updateReview(updatedReview);  System.out.println(paper); 
+// Retract a review  paper.retractReview("R1");  System.out.println(paper);   `
 
 How to Run
 ----------
